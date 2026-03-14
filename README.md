@@ -35,4 +35,20 @@
 
 ## Restrições de projeto:
 
+- Deve focar apenas em viagens, ou seja, o objetivo não é focar em pontos
+turísticos por exemplo, mas sim nas estadias
+
 ## Riscos de projeto:
+
+Como é uma aplicação que possui um público-alvo grande, devemos evitar:
+- **Baixa disponibilidade:** Caso a aplicação fique fora do ar, temos o risco
+de potencial prejuízo financeiro, além da reputação cair com os clientes.
+- **Latência alta nas requisições:** É importante que a performance da aplicação
+não seja comprometida, uma vez que caso a aplicação da concorrência seja mais
+responsiva, podemos perder clientes.
+- **Regras de negócio mau definidas:** Caso as regras de negócio estejam mau
+definidas, não ficará claro o que é prioritário ou não na aplicação. Além disso,
+o objetivo principal corre o risco de ficar ofuscado ou incerto.
+- **Risco legal:** Não podemos pegar qualquer estadia sem a permissão das empresas
+que a fornecem, portanto, é necessário acordar com as empresas como podemos
+disponibilizar as suas estadias.
