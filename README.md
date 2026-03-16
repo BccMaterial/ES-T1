@@ -29,7 +29,7 @@ deseja viajar. A ideia é atender estadias tanto para lazer quanto para
 negócios.
 - **Proposta de valor**: O principal benefício do StayHub aos usuários e sua diferenciação dele em relação a outras soluções existentes é a centralização  de opções de preços e estadias, evitando ter que navegar por diversas plataformas e sites diferentes para encontrar uma hospedagem ideal.
 
-## 1.3) **Capacidades do Produto**
+### 1.3) **Capacidades do Produto**
 - **Principais funcionalidades:** 
   - **Busca de hospedagens:** busca hospedagens por destino, datas e número de hóspedes, contribuindo para atender as necessidades específicas de cada usuário.
   - **Comparação:** compara preços, fotos, comodisades e avaliações, evitando comparações manuais pelo usuário em diferentes plataformas.
