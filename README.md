@@ -23,9 +23,7 @@ interessantes para ele.
 
 ### 1.2) **Perspectiva do produto**:
 
-- **Contextualizar o produto no ambiente atual**: Explicar como o software
-se encaixa no ecossistema tecnológico, em termos de sistemas relacionados 
-ou produtos similares existentes no mercado.
+- **Contextualizar o produto no ambiente atual**: o StayHub se encaixa no ecossistema tecnológico como uma alternativa a clientes que não querem ter que procurar extensivamente a hospedagem ideal através de diversas plataformas diferentes.
 - **Público-alvo:** A plataforma tem como público alvo qualquer pessoa que
 deseja viajar. A ideia é atender estadias tanto para lazer quanto para 
 negócios.
