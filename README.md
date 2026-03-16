@@ -38,30 +38,44 @@ negócios.
 - **Wireframes baixíssima resolução: Fazer esboços de fluxos principais dos usuários**:
 - **Características de qualidade:** Usabilidade simples que seja compreensível por usuários de diferentes perfis, segurança principalmente em transições financeiras e código facilmemente compreensível com alta manutenibilidade
 
-## 2) Definição de usuários:
+### 2) **Definição de usuários:**
 
 | Tipo de Usuário | Descrição | Objetivos | Experiência Técnica |
 |---|---|---|---|
-| Hóspede | Pessoa viajante que busca um lugar para dormir e relaxar. | Pesquisar e comparar preços, visualizar quartos e seus diferenciais em fotos, gerenciar sua reserva e avaliar a mesma. | Baixa |
-| Administrador do Estabelecimento | Dono ou gerente que busca cadastrar e gerenciar seu estabelecimento. | Cadastrar e gerenciar seu estabelecimento e suas dependências como quartos, definir disponibilidade e preços, responder avaliações. | Média |
+| Hóspede | Viajante que busca um lugar para dormir e relaxar. | Pesquisar e comparar preços, visualizar quartos e seus diferenciais em fotos, gerenciar sua reserva e avaliar a mesma. | Baixa |
+| Administrador do Estabelecimento | Dono ou gerente de um estabelecimento. | Cadastrar e gerenciar seu estabelecimento e suas dependências como quartos, definir disponibilidade e preços, responder avaliações. | Média |
 | Administrador do Sistema | Responsável pela gestão do sistema (StayHub). | Garantir o funcionamento da plataforma e monitorá-la, gerenciar usuários e estabelecimentos. | Baixa |
 
-## Restrições de projeto:
+### 3) **Restrições de projeto:**
 
 - Deve focar apenas em viagens, ou seja, o objetivo não é focar em pontos
 turísticos por exemplo, mas sim nas estadias
 
-## Riscos de projeto:
+### 4) **Riscos de projeto:**
+| Risco     | Descrição |
+| ----------- | ----------- |
+| Título | Reserva duplicada|
+| Impacto   | Alto |
+| Ação de Mitigação  | Garantir que o banco de dados não registre mais de um cliente em uma hospedagem |
+| Plano de Contingência| Remover o registro do segundo cliente da hospedagem e oferecer um desconto para o mesmo|
 
-Como é uma aplicação que possui um público-alvo grande, devemos evitar:
-- **Baixa disponibilidade:** Caso a aplicação fique fora do ar, temos o risco
-de potencial prejuízo financeiro, além da reputação cair com os clientes.
-- **Latência alta nas requisições:** É importante que a performance da aplicação
-não seja comprometida, uma vez que caso a aplicação da concorrência seja mais
-responsiva, podemos perder clientes.
-- **Regras de negócio mau definidas:** Caso as regras de negócio estejam mau
-definidas, não ficará claro o que é prioritário ou não na aplicação. Além disso,
-o objetivo principal corre o risco de ficar ofuscado ou incerto.
-- **Risco legal:** Não podemos pegar qualquer estadia sem a permissão das empresas
-que a fornecem, portanto, é necessário acordar com as empresas como podemos
-disponibilizar as suas estadias.
+| Risco     | Descrição |
+| ----------- | ----------- |
+| Título | Preços variáveis|
+| Impacto   | Alto |
+| Ação de Mitigação  | Verificar o valor do preço constantemente para verificar se ele está de acordo com a época do ano e demanda |
+| Plano de Contingência| Caso o preço da hospedagem fosse mais caro que o exibido, não cobrar o cliente. Senão, deixar o cliente permanecer na hospedagem pelo custo que pagou inicialmente |
+
+| Risco     | Descrição |
+| ----------- | ----------- |
+| Título | Política de cancelmaneto|
+| Impacto   | Alto |
+| Ação de Mitigação  | Deixar claro na plataforma as políticas de cancelamento para o usuário antes do confirmar sua hospedagem|
+| Plano de Contingência| Caso as políticas de cancelamento não sejam seguidas, cobrar o valor de pagamento do cliente|
+
+| Risco     | Descrição |
+| ----------- | ----------- |
+| Título | Avaliações falsas|
+| Impacto   | Alto |
+| Ação de Mitigação  |Incoporar métodos de verificação na plataforma que verificam se o usuário realmente permaneceu na hospedagem|
+| Plano de Contingência| Remover as avaliações de usuários falsos|
