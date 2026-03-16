@@ -35,10 +35,12 @@ negócios.
   - **Comparação:** compara preços, fotos, comodisades e avaliações, evitando comparações manuais pelo usuário em diferentes plataformas.
   - **Reserva online:**: faz a seleção de quarto e pagamento.
   - **Avaliações:** mostrar comentários de hóspedes prévios, ajudando na decisão de hospedagem de clientes futuros.
-- **Wireframes baixíssima resolução: Fazer esboços de fluxos principais dos usuários**:
 - **Características de qualidade:** Usabilidade simples que seja compreensível por usuários de diferentes perfis, segurança principalmente em transições financeiras e código facilmemente compreensível com alta manutenibilidade
 
-### 2) **Definição de usuários:**
+#### Wireframe da aplicação
+![Wireframe da página inicial da aplicação](./wireframeEs.drawio.png)
+
+## 2) **Definição de usuários:**
 
 | Tipo de Usuário | Descrição | Objetivos | Experiência Técnica |
 |---|---|---|---|
@@ -46,7 +48,7 @@ negócios.
 | Administrador do Estabelecimento | Dono ou gerente de um estabelecimento. | Cadastrar e gerenciar seu estabelecimento e suas dependências como quartos, definir disponibilidade e preços, responder avaliações. | Média |
 | Administrador do Sistema | Responsável pela gestão do sistema (StayHub). | Garantir o funcionamento da plataforma e monitorá-la, gerenciar usuários e estabelecimentos. | Baixa |
 
-### 3) **Restrições de projeto:**
+## 3) **Restrições de projeto:**
 | Restrição   | Descrição |
 | ----------- | ----------- |
 | Tecnológica | Desenvolver a plataforma como uma aplicação web que seja capaz de se integrar com serviços de pagamento externos, envio de e-mails e localização de estabelecimentos|
@@ -55,7 +57,7 @@ negócios.
 | Política de Cancelamento| Cada estabelecimento possuem suas próprias regras de cancelamento que devem ser aplicadas pelo sistema corretamente
 | Avaliações | Apenas hóspedes reais podem registrar avaliações em estabelecimentos
 
-### 4) **Riscos de projeto:**
+## 4) **Riscos de projeto:**
 | Risco     | Descrição |
 | ----------- | ----------- |
 | Título | Reserva duplicada|
