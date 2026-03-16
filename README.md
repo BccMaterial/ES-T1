@@ -30,7 +30,11 @@ negócios.
 - **Proposta de valor**: O principal benefício do StayHub aos usuários e sua diferenciação dele em relação a outras soluções existentes é a centralização  de opções de preços e estadias, evitando ter que navegar por diversas plataformas e sites diferentes para encontrar uma hospedagem ideal.
 
 ## 1.3) **Capacidades do Produto**
-- **Principais funcionalidades:** Descrever as funções que o software realizará, destacando os benefícios que cada função proporciona aos usuários.
+- **Principais funcionalidades:** 
+  - **Busca de hospedagens:** busca hospedagens por destino, datas e número de hóspedes.
+  - **Comparação:** compara preços, fotos, comodisades e avaliações, evitando comparações manuais pelo usuário.
+  - **Reserva online:**: faz a seleção de quarto e pagamento.
+  - **Avaliações:** mostrar comentários de hóspedes prévios, ajudando na decisão de hospedagem de clientes futuros.
 - **Wireframes baixíssima resolução: Fazer esboços de fluxos principais dos usuários**:
 - **Características de qualidade:** Abordar aspectos como usabilidade, segurança, confiabilidade e manutenibilidade, que são essenciais para garantir a qualidade do produto.
 
