@@ -31,7 +31,7 @@ negócios.
 
 ## 1.3) **Capacidades do Produto**
 - **Principais funcionalidades:** 
-  - **Busca de hospedagens:** busca hospedagens por destino, datas e número de hóspedes.
+  - **Busca de hospedagens:** busca hospedagens por destino, datas e número de hóspedes, contribuindo para atender as necessidades específicas de cada usuário.
   - **Comparação:** compara preços, fotos, comodisades e avaliações, evitando comparações manuais pelo usuário.
   - **Reserva online:**: faz a seleção de quarto e pagamento.
   - **Avaliações:** mostrar comentários de hóspedes prévios, ajudando na decisão de hospedagem de clientes futuros.
