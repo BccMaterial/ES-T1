@@ -47,9 +47,13 @@ negócios.
 | Administrador do Sistema | Responsável pela gestão do sistema (StayHub). | Garantir o funcionamento da plataforma e monitorá-la, gerenciar usuários e estabelecimentos. | Baixa |
 
 ### 3) **Restrições de projeto:**
-
-- Deve focar apenas em viagens, ou seja, o objetivo não é focar em pontos
-turísticos por exemplo, mas sim nas estadias
+| Restrição   | Descrição |
+| ----------- | ----------- |
+| Tecnológica | Desenvolver a plataforma como uma aplicação web que seja capaz de se integrar com serviços de pagamento externos, envio de e-mails e localização de estabelecimentos|
+| Segurança   | Garantir a segurança de dados sensíveis dos usuários, como informações de login e dados de pagamento. Também garantir que os usuários não possam acessar dados de outros hóspedes |
+| Controle de reservas |Deve-se garantir que um mesmo quarto não seja reservado por mais de um hóspede durante o mesmo perídio |
+| Política de Cancelamento| Cada estabelecimento possuem suas próprias regras de cancelamento que devem ser aplicadas pelo sistema corretamente
+| Avaliações | Apenas hóspedes reais podem registrar avaliações em estabelecimentos
 
 ### 4) **Riscos de projeto:**
 | Risco     | Descrição |
