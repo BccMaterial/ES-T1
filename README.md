@@ -29,6 +29,11 @@ deseja viajar. A ideia é atender estadias tanto para lazer quanto para
 negócios.
 - **Proposta de valor**: O principal benefício do StayHub aos usuários e sua diferenciação dele em relação a outras soluções existentes é a centralização  de opções de preços e estadias, evitando ter que navegar por diversas plataformas e sites diferentes para encontrar uma hospedagem ideal.
 
+## 1.3) **Capacidades do Produto**
+- **Principais funcionalidades:** Descrever as funções que o software realizará, destacando os benefícios que cada função proporciona aos usuários.
+- **Wireframes baixíssima resolução: Fazer esboços de fluxos principais dos usuários**:
+- **Características de qualidade:** Abordar aspectos como usabilidade, segurança, confiabilidade e manutenibilidade, que são essenciais para garantir a qualidade do produto.
+
 ## 2) Definição de usuários:
 
 É possível definir os usuários em dois grupos:
