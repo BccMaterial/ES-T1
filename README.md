@@ -29,8 +29,7 @@ ou produtos similares existentes no mercado.
 - **Público-alvo:** A plataforma tem como público alvo qualquer pessoa que
 deseja viajar. A ideia é atender estadias tanto para lazer quanto para 
 negócios.
-- **Proposta de valor**:  Resumir os principais benefícios que o software 
-trará aos usuários e como ele se diferencia de outras soluções existentes.
+- **Proposta de valor**: O principal benefício do StayHub aos usuários e sua diferenciação dele em relação a outras soluções existentes é a centralização  de opções de preços e estadias, evitando ter que navegar por diversas plataformas e sites diferentes para encontrar uma hospedagem ideal.
 
 ## 2) Definição de usuários:
 
