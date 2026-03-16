@@ -42,46 +42,46 @@ negócios.
 
 ## 2) **Definição de usuários:**
 
-| Tipo de Usuário | Descrição | Objetivos | Experiência Técnica |
-|---|---|---|---|
-| Hóspede | Viajante que busca um lugar para dormir e relaxar. | Pesquisar e comparar preços, visualizar quartos e seus diferenciais em fotos, gerenciar sua reserva e avaliar a mesma. | Baixa |
-| Administrador do Estabelecimento | Dono ou gerente de um estabelecimento. | Cadastrar e gerenciar seu estabelecimento e suas dependências como quartos, definir disponibilidade e preços, responder avaliações. | Média |
-| Administrador do Sistema | Responsável pela gestão do sistema (StayHub). | Garantir o funcionamento da plataforma e monitorá-la, gerenciar usuários e estabelecimentos. | Baixa |
+| Tipo de Usuário                  | Descrição                                          | Objetivos                                                                                                                                | Experiência Técnica |
+| -------------------------------- | -------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------- | ------------------- |
+| Hóspede                          | Viajante que busca um lugar para dormir e relaxar. | Pesquisar e comparar preços, visualizar quartos e seus diferenciais em fotos, gerenciar sua reserva e avaliar a mesma.                   | Baixa               |
+| Administrador do Estabelecimento | Dono ou gerente de um estabelecimento.             | Cadastrar e gerenciar seu estabelecimento e suas dependências como quartos, definir disponibilidade e preços, responder avaliações.      | Média               |
+| Administrador do Sistema         | Responsável pela gestão do sistema (StayHub).      | Garantir o funcionamento da plataforma e monitorá-la, gerenciar usuários e estabelecimentos.                                             | Baixa               |
 
 ## 3) **Restrições de projeto:**
-| Restrição   | Descrição |
-| ----------- | ----------- |
-| Tecnológica | Desenvolver a plataforma como uma aplicação web que seja capaz de se integrar com serviços de pagamento externos, envio de e-mails e localização de estabelecimentos|
-| Segurança   | Garantir a segurança de dados sensíveis dos usuários, como informações de login e dados de pagamento. Também garantir que os usuários não possam acessar dados de outros hóspedes |
-| Controle de reservas |Deve-se garantir que um mesmo quarto não seja reservado por mais de um hóspede durante o mesmo perídio |
-| Política de Cancelamento| Cada estabelecimento possuem suas próprias regras de cancelamento que devem ser aplicadas pelo sistema corretamente
-| Avaliações | Apenas hóspedes reais podem registrar avaliações em estabelecimentos
+| Restrição                | Descrição                                                                                                                                                                         |
+| ------------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Tecnológica              | Desenvolver a plataforma como uma aplicação web que seja capaz de se integrar com serviços de pagamento externos, envio de e-mails e localização de estabelecimentos              |
+| Segurança                | Garantir a segurança de dados sensíveis dos usuários, como informações de login e dados de pagamento. Também garantir que os usuários não possam acessar dados de outros hóspedes |
+| Controle de reservas     | Deve-se garantir que um mesmo quarto não seja reservado por mais de um hóspede durante o mesmo período                                                                            |
+| Política de Cancelamento | Cada estabelecimento possui suas próprias regras de cancelamento que devem ser aplicadas pelo sistema corretamente                                                                |
+| Avaliações               | Apenas hóspedes reais podem registrar avaliações em estabelecimentos                                                                                                              | 
 
 ## 4) **Riscos de projeto:**
-| Risco     | Descrição |
-| ----------- | ----------- |
-| Título | Reserva duplicada|
-| Impacto   | Alto |
-| Ação de Mitigação  | Garantir que o banco de dados não registre mais de um cliente em uma hospedagem |
-| Plano de Contingência| Remover o registro do segundo cliente da hospedagem e oferecer um desconto para o mesmo|
+| Risco                 | Descrição                                                                               |
+| --------------------- | --------------------------------------------------------------------------------------- |
+| Título                | Reserva duplicada                                                                       |
+| Impacto               | Alto                                                                                    |
+| Ação de Mitigação     | Garantir que o banco de dados não registre mais de um cliente em uma hospedagem         |
+| Plano de Contingência | Remover o registro do segundo cliente da hospedagem e oferecer um desconto para o mesmo |
 
-| Risco     | Descrição |
-| ----------- | ----------- |
-| Título | Preços variáveis|
-| Impacto   | Alto |
-| Ação de Mitigação  | Verificar o valor do preço constantemente para verificar se ele está de acordo com a época do ano e demanda |
-| Plano de Contingência| Caso o preço da hospedagem fosse mais caro que o exibido, não cobrar o cliente. Senão, deixar o cliente permanecer na hospedagem pelo custo que pagou inicialmente |
+| Risco                 | Descrição                                                                                                                                                          |
+| --------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Título                | Preços variáveis                                                                                                                                                   |
+| Impacto               | Alto                                                                                                                                                               |
+| Ação de Mitigação     | Verificar o valor do preço constantemente para verificar se ele está de acordo com a época do ano e demanda                                                        |
+| Plano de Contingência | Caso o preço da hospedagem fosse mais caro que o exibido, não cobrar o cliente. Senão, deixar o cliente permanecer na hospedagem pelo custo que pagou inicialmente |
 
-| Risco     | Descrição |
-| ----------- | ----------- |
-| Título | Política de cancelmaneto|
-| Impacto   | Alto |
-| Ação de Mitigação  | Deixar claro na plataforma as políticas de cancelamento para o usuário antes do confirmar sua hospedagem|
-| Plano de Contingência| Caso as políticas de cancelamento não sejam seguidas, cobrar o valor de pagamento do cliente|
+| Risco                 | Descrição                                                                                                |
+| --------------------- | -------------------------------------------------------------------------------------------------------- |
+| Título                | Política de cancelamento                                                                                 |
+| Impacto               | Alto                                                                                                     |
+| Ação de Mitigação     | Deixar claro na plataforma as políticas de cancelamento para o usuário antes do confirmar sua hospedagem |
+| Plano de Contingência | Caso as políticas de cancelamento não sejam seguidas, cobrar o valor de pagamento do cliente             |
 
-| Risco     | Descrição |
-| ----------- | ----------- |
-| Título | Avaliações falsas|
-| Impacto   | Alto |
-| Ação de Mitigação  |Incoporar métodos de verificação na plataforma que verificam se o usuário realmente permaneceu na hospedagem|
-| Plano de Contingência| Remover as avaliações de usuários falsos|
+| Risco                 | Descrição                                                                                                    |
+| --------------------- | ------------------------------------------------------------------------------------------------------------ |
+| Título                | Avaliações falsas                                                                                            |
+| Impacto               | Alto                                                                                                         |
+| Ação de Mitigação     | Incoporar métodos de verificação na plataforma que verificam se o usuário realmente permaneceu na hospedagem |
+| Plano de Contingência | Remover as avaliações de usuários falsos                                                                     |
