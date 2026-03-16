@@ -40,13 +40,11 @@ negócios.
 
 ## 2) Definição de usuários:
 
-É possível definir os usuários em dois grupos:
-- **Lazer:** Pessoas ou grupos de pessoas que querem viajar com o objetivo de
-lazer, como: famílias, grupo de amigos, casais.
-- **Negócios:** Empresas ou pessoas podem contratar os serviços da aplicação,
-para viagens de negócios.
-
-Ambos os grupos procuram estadias por motivos e interesses diferentes.
+| Tipo de Usuário | Descrição | Objetivos | Experiência Técnica |
+|---|---|---|---|
+| Hóspede | Pessoa viajante que busca um lugar para dormir e relaxar. | Pesquisar e comparar preços, visualizar quartos e seus diferenciais em fotos, gerenciar sua reserva e avaliar a mesma. | Baixa |
+| Administrador do Estabelecimento | Dono ou gerente que busca cadastrar e gerenciar seu estabelecimento. | Cadastrar e gerenciar seu estabelecimento e suas dependências como quartos, definir disponibilidade e preços, responder avaliações. | Média |
+| Administrador do Sistema | Responsável pela gestão do sistema (StayHub). | Garantir o funcionamento da plataforma e monitorá-la, gerenciar usuários e estabelecimentos. | Baixa |
 
 ## Restrições de projeto:
 
