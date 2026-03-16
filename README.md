@@ -32,11 +32,11 @@ negócios.
 ## 1.3) **Capacidades do Produto**
 - **Principais funcionalidades:** 
   - **Busca de hospedagens:** busca hospedagens por destino, datas e número de hóspedes, contribuindo para atender as necessidades específicas de cada usuário.
-  - **Comparação:** compara preços, fotos, comodisades e avaliações, evitando comparações manuais pelo usuário.
+  - **Comparação:** compara preços, fotos, comodisades e avaliações, evitando comparações manuais pelo usuário em diferentes plataformas.
   - **Reserva online:**: faz a seleção de quarto e pagamento.
   - **Avaliações:** mostrar comentários de hóspedes prévios, ajudando na decisão de hospedagem de clientes futuros.
 - **Wireframes baixíssima resolução: Fazer esboços de fluxos principais dos usuários**:
-- **Características de qualidade:** Abordar aspectos como usabilidade, segurança, confiabilidade e manutenibilidade, que são essenciais para garantir a qualidade do produto.
+- **Características de qualidade:** Usabilidade simples que seja compreensível por usuários de diferentes perfis, segurança principalmente em transições financeiras e código facilmemente compreensível com alta manutenibilidade
 
 ## 2) Definição de usuários:
 
